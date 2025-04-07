@@ -1,15 +1,19 @@
 title: My Blog
 description: A personal blog built with Jekyll
-author: Your Name
+author: Evander
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://evander0x.github.io" # the base hostname & protocol
 
 # Build settings
 markdown: kramdown
-permalink: /:year/:month/:day/:title/
+permalink: /:categories/:title/
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+# Display settings
+show_excerpts: true
+excerpt_separator: "<!--more-->"
 
 # Exclude from processing
 exclude:

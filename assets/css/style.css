@@ -1,0 +1,94 @@
+/* Base styles */
+:root {
+  --primary-color: #333;
+  --secondary-color: #666;
+  --background-color: #fff;
+  --link-color: #0366d6;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--primary-color);
+  background: var(--background-color);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header */
+.site-header {
+  background: var(--background-color);
+  border-bottom: 1px solid #eee;
+  padding: 1rem 0;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.site-title a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.site-nav {
+  margin-top: 1rem;
+}
+
+.site-nav a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.site-nav a:hover {
+  color: var(--link-color);
+}
+
+/* Content */
+.site-content {
+  padding: 2rem 0;
+}
+
+/* Post list */
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-list li {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #eee;
+}
+
+.post-meta {
+  color: var(--secondary-color);
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.post-link {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.post-link:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.site-footer {
+  border-top: 1px solid #eee;
+  padding: 1rem 0;
+  color: var(--secondary-color);
+  font-size: 0.9rem;
+}

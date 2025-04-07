@@ -3,44 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blog Posts - My Blog</title>
+    <title>{{ page.title }} - {{ site.title }}</title>
     <link
       rel="stylesheet"
-      href="/assets/css/style.css"
+      href="{{ '/assets/css/style.css' | relative_url }}"
     />
   </head>
   <body>
     <header class="site-header">
       <div class="container">
         <h1 class="site-title">
-          <a href="/">My Blog</a>
+          <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
         </h1>
         <nav class="site-nav">
-          <a href="/">Home</a>
-          <a href="/about">About</a>
+          <a href="{{ '/' | relative_url }}">Home</a>
+          <a href="{{ '/about' | relative_url }}">About</a>
         </nav>
       </div>
     </header>
 
     <main class="site-content">
-      <div class="container"><div class="home">
-<ul>
-  <li>
-    <p><a href="/blog/test/">test</a> - 2025-04-07</p>
-  </li>
-  <li>
-    <p><a href="/blog/welcome-to-jekyll/">Welcome to Jekyll!</a> - 2024-04-07</p>
-  </li>
-</ul>
-
-</div>
-</div>
+      <div class="container">{{ content }}</div>
     </main>
 
     <footer class="site-footer">
       <div class="container">
         <p>
-          &copy; 2025 Evander. All rights
+          &copy; {{ site.time | date: '%Y' }} {{ site.author }}. All rights
           reserved.
         </p>
       </div>

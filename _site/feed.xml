@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-04-07T16:06:24+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Blog</title><subtitle>A personal blog built with Jekyll</subtitle><author><name>Your Name</name></author><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/2024/04/07/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2024-04-07T12:00:00+08:00</published><updated>2024-04-07T12:00:00+08:00</updated><id>http://localhost:4000/2024/04/07/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/2024/04/07/welcome-to-jekyll/"><![CDATA[<h1 id="welcome-to-my-blog">Welcome to My Blog</h1>
+
+<p>This is my first blog post using Jekyll. Jekyll is a simple, blog-aware, static site generator perfect for personal, project, or organization sites.</p>
+
+<h2 id="what-is-jekyll">What is Jekyll?</h2>
+
+<p>Jekyll is a static site generator that takes your content written in Markdown, processes it through a template engine, and creates a complete, static website ready to be served.</p>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li>Simple and fast</li>
+  <li>Blog-aware permalinks, categories, pages, posts, and custom layouts</li>
+  <li>A template system that’s easy to use</li>
+  <li>Built-in support for code syntax highlighting</li>
+  <li>Integrated with GitHub Pages</li>
+</ul>
+
+<h2 id="getting-started">Getting Started</h2>
+
+<p>To get started with Jekyll, you need to:</p>
+
+<ol>
+  <li>Install Ruby and Jekyll</li>
+  <li>Create a new Jekyll site</li>
+  <li>Write your content in Markdown</li>
+  <li>Build and serve your site locally</li>
+</ol>
+
+<h2 id="code-example">Code Example</h2>
+
+<p>Here’s a simple code example:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">hello_world</span><span class="p">():</span>
+    <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">Hello, Jekyll!</span><span class="sh">"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Stay tuned for more posts about web development, programming, and other interesting topics!</p>]]></content><author><name>Your Name</name></author><category term="blog" /><summary type="html"><![CDATA[Welcome to My Blog]]></summary></entry></feed>

@@ -1,0 +1,21 @@
+{
+  "name": "evander-blog",
+  "version": "1.0.0",
+  "description": "Minimal personal blog starter built with VitePress.",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "npm run sitemap && vitepress build docs",
+    "preview": "vitepress preview docs",
+    "test": "node --test docs/.vitepress/theme/utils/*.test.js",
+    "format": "prettier --write .",
+    "sitemap": "node scripts/generate-sitemap.mjs"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.7.4",
+    "vitepress": "^2.0.0-alpha.16"
+  }
+}

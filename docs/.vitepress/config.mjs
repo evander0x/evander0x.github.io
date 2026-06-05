@@ -6,7 +6,8 @@ const siteUrl = process.env.SITE_URL || 'https://evander0x.github.io'
 const zhNav = [
   { text: '首页', link: '/zh/' },
   { text: '文章', link: '/zh/posts/template' },
-  { text: '关于', link: '/zh/about' }
+  { text: '关于', link: '/zh/about' },
+  { text: '隐私政策', link: '/zh/privacy-policy' }
 ]
 
 const enNav = [
@@ -21,7 +22,8 @@ const zhSidebar = [
     collapsed: false,
     items: [
       { text: '博客模板', link: '/zh/posts/template' },
-      { text: '关于我', link: '/zh/about' }
+      { text: '关于我', link: '/zh/about' },
+      { text: '隐私政策', link: '/zh/privacy-policy' }
     ]
   },
   {
